@@ -12,37 +12,40 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
-
+<form action="#" method="GET">
       <!-- Add a label for 'fullname'-->
+<label for=name> write your full name</label>
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
-
+<input id="fullname" type="text" name="fullname" placeholder="Enter Name" required>
 
       <!-- Add a label for 'email'-->
-
+<label for="email" >write your email</label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
-
+<input type="email"  id="email" name="email" placeholder="Enter Email" required>
 
       <!-- Add a label for 'phone'-->
-
+<label for="phone">enter your phone number</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
-
+<input type="tel" id="phone" name="phone" placeholder="Enter Telephone">
 
       <!-- Add a label for 'message'-->
-
+<label for="message">Anything else you want to tell</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
-
+<textarea id="message" name="message" placeholder="Enter Message"></textarea> <br>
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
 
-
+<input type="checkbox" name="thing-1" value="sun">sun 
+<input type="checkbox" name="thing-2" value="moon">moon
+<input type="checkbox" name="thing-3" value="trurh">trurh
 
       <!-- Add an input with the type set to 'submit' -->
-
-    
+<input type="submit">
+    </form>
   </body>
 </html>
